@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CD's Galore!</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>CD's Galore!</h1>
+        <form action="#">
+            <fieldset>
+                <legend>Your Account</legend>
+                <label for="username">Username:</label>
+                <input type="text" name="username" />
+                <br/>
+                <label for="password">Password:</label>
+                <input type="password" name="password" />
+                <br/>
+            </fieldset>
+            <fieldset>
+                <legend>Shipping</legend>
+                <label for="shipping">Choose your shipping speed:</label>
+                <br/>
+                <input type="radio" name="shipping" value="ground" />Ground (5-7 Days)<br/>
+                <input type="radio" name="shipping" value="twoday" />2-Day<br/>
+                <input type="radio" name="shipping" value="nextday" />Next Day Air<br/>
+            </fieldset>
+            <fieldset>
+                <legend>Favorite Genres</legend>
+                <label for="genres">Choose all genres that apply:</label>
+                <br/>
+                <input type="checkbox" name="genres" value="rock" />Rock<br/>
+                <input type="checkbox" name="genres" value="country" />Country<br/>
+                <input type="checkbox" name="genres" value="deathmetal" />Death Metal<br/>
+            </fieldset>
+            <fieldset>
+                <legend>Choose Your CD</legend>
+                <label for="cd">Select a CD:</label>
+                <select name="cd">
+                    <option>Greatest Hits</option>
+                    <option>Live in Concert</option>
+                    <option>Acoustic Sessions</option>
+                    <option>Holiday Classics</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Special Requests</legend>
+                <p>Upload a picture of a CD you are looking for:</p>
+                <input type="file" name="cdpicture" />
+
+                <p>Order notes:</p>
+                <textarea name="notes" rows="4" cols="50">Please type here...</textarea>
+
+                <p><input type="submit" value="Place Order" /></p>
+            </fieldset>
+        </form>
+    </body>
+</html>
