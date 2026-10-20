@@ -1,0 +1,196 @@
+/* Main page background and text */
+body {
+    background-color: honeydew;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: darkslategray;
+}
+
+/* White box that holds each page */
+#container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    border: 4px solid seagreen;
+    border-radius: 20px;
+}
+
+/* Main page title */
+h1 {
+    color: white;
+    background-color: seagreen;
+    font-family: Georgia;
+    font-size: 38px;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    border-radius: 12px;
+}
+
+/* Small line under the title */
+.subtitle {
+    text-align: center;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+/* Section headings */
+h2 {
+    color: darkgreen;
+    font-family: Georgia;
+    font-size: 28px;
+    margin: 35px 0px 10px 0px;
+}
+
+h3 {
+    color: seagreen;
+    font-family: Georgia;
+    font-size: 21px;
+}
+
+/* Navigation bar (from my NavBar assignment) */
+.navbar {
+    text-align: center;
+    list-style: none;
+    padding: 8px;
+    background-color: darkgreen;
+    border-radius: 10px;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    display: block;
+    padding: 8px 14px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.navbar a:hover {
+    background-color: honeydew;
+    color: darkgreen;
+}
+
+/* Highlights the page you are on */
+.navbar .current {
+    background-color: mediumseagreen;
+}
+
+/* Pictures */
+.photo {
+    text-align: center;
+    font-size: 14px;
+    color: dimgray;
+}
+
+.wide-pic {
+    width: 520px;
+    border: 4px solid seagreen;
+    border-radius: 12px;
+}
+
+.tall-pic {
+    width: 300px;
+    border: 4px solid seagreen;
+    border-radius: 12px;
+}
+
+/* Green box for key facts */
+.key-box {
+    background-color: honeydew;
+    padding: 15px 30px;
+    border: 2px solid seagreen;
+    border-radius: 10px;
+}
+
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0px;
+}
+
+th, td {
+    border: 2px solid seagreen;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: seagreen;
+    color: white;
+}
+
+td {
+    background-color: white;
+}
+
+/* Description lists */
+dt {
+    color: darkgreen;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+dd {
+    margin: 5px 0px 15px 20px;
+}
+
+li {
+    padding: 4px;
+}
+
+/* Form styling (from my Simple Form assignment) */
+fieldset {
+    background-color: honeydew;
+    border: 2px solid seagreen;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+legend {
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input[type="submit"] {
+    background-color: seagreen;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Small gray notes */
+.note {
+    font-size: 14px;
+    color: dimgray;
+}
+
+/* Links */
+a {
+    color: seagreen;
+    font-weight: bold;
+}
+
+a:hover {
+    color: darkgreen;
+    background-color: honeydew;
+}
+
+/* Footer at the bottom of every page */
+footer {
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    color: darkgreen;
+}

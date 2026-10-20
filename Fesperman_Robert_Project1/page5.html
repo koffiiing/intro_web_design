@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>For Your Health! | Which Is Right for You?</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="container">
+
+            <!-- Site title -->
+            <h1>Game On or Go Hard?</h1>
+            <p class="subtitle">Handball Games vs. High-Intensity Interval Training for Better Health</p>
+
+            <!-- Navigation -->
+            <nav>
+                <ul class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="page1.html">SSG and HIIT</a></li>
+                    <li><a href="page2.html">The Study</a></li>
+                    <li><a href="page3.html">Health Results</a></li>
+                    <li><a href="page4.html">Fitness Results</a></li>
+                    <li><a href="page5.html" class="current">Which Is Right for You?</a></li>
+                    <li><a href="references.html">References</a></li>
+                </ul>
+            </nav>
+
+            <h2>So Which Workout Should You Choose?</h2>
+            <p>The good news is that both workouts work. The study's authors say people who
+            want a fun, social, skill-based activity may prefer handball games, while people who want
+            the most efficient way to improve their heart and lung fitness may prefer HIIT
+            (<a href="references.html">Han et al., 2026</a>). Other research has found that small-sided games are more enjoyable than HIIT
+            at a similar intensity (<a href="references.html">Selmi et al., 2020</a>), and enjoying exercise makes it
+            easier to stick with.</p>
+
+            <!-- Comparison table -->
+            <table>
+                <tr>
+                    <th>Choose SSG if you...</th>
+                    <th>Choose HIIT if you...</th>
+                </tr>
+                <tr>
+                    <td>Like team sports and playing with friends</td>
+                    <td>Prefer to work out on your own</td>
+                </tr>
+                <tr>
+                    <td>Get bored easily with regular workouts</td>
+                    <td>Like a clear plan with exact times</td>
+                </tr>
+                <tr>
+                    <td>Want to build sports skills too</td>
+                    <td>Want the biggest boost to aerobic fitness</td>
+                </tr>
+                <tr>
+                    <td>Have a gym or court and a group to play with</td>
+                    <td>Only have a track or open space</td>
+                </tr>
+            </table>
+
+            <!-- Safety tips -->
+            <h2>Tips for Getting Started</h2>
+            <ul class="key-box">
+                <li>Start slowly and build up over a few weeks.</li>
+                <li>Always warm up before hard exercise.</li>
+                <li>Work with a coach or trainer if you are new to high-intensity exercise.</li>
+                <li>Talk to a doctor first if you have a health condition.</li>
+                <li>Aim for at least 150 minutes of moderate activity each week (<a href="references.html">Bull et al., 2020</a>).</li>
+            </ul>
+
+            <!-- Limitations -->
+            <h2>Things to Keep in Mind</h2>
+            <p>This study only included young, healthy college students, and it did not check back
+            with them after the 16 weeks ended. The researchers say future studies should include
+            older adults and people at higher risk of health problems, and should follow people for
+            longer (<a href="references.html">Han et al., 2026</a>).</p>
+
+            <!-- Quiz form -->
+            <h2>Quiz: Which Workout Fits You?</h2>
+            <p>Answer these questions to think about which style of workout might be best for you.</p>
+
+            <form action="#">
+                <fieldset>
+                    <legend>About You</legend>
+                    <label for="name">First name:</label>
+                    <input type="text" name="name" />
+                    <br/><br/>
+                    <label for="activity">How active are you right now?</label>
+                    <select name="activity">
+                        <option>Mostly sitting (sedentary)</option>
+                        <option>Active 1-2 days a week</option>
+                        <option>Active 3 or more days a week</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Workout Style</legend>
+                    <label for="style">Do you like to exercise alone or with others?</label>
+                    <br/>
+                    <input type="radio" name="style" value="team" />With a team<br/>
+                    <input type="radio" name="style" value="alone" />On my own<br/>
+                    <input type="radio" name="style" value="either" />Either is fine<br/>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Your Goals</legend>
+                    <label for="goals">Choose all goals that apply:</label>
+                    <br/>
+                    <input type="checkbox" name="goals" value="weight" />Lose weight<br/>
+                    <input type="checkbox" name="goals" value="heart" />Improve heart health<br/>
+                    <input type="checkbox" name="goals" value="endurance" />Build endurance<br/>
+                    <input type="checkbox" name="goals" value="strength" />Get stronger<br/>
+                    <input type="checkbox" name="goals" value="fun" />Have fun and meet people<br/>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Anything Else?</legend>
+                    <p>Tell us about any sports you already enjoy:</p>
+                    <textarea name="comments" rows="4" cols="50">Please type here...</textarea>
+                    <p><input type="submit" value="See My Match" /></p>
+                </fieldset>
+            </form>
+
+            <p class="note">Quick guide: if you picked "With a team" and "Have fun and meet people," SSG might be a great fit.
+            If you picked "On my own" and "Build endurance," try HIIT. Either way, you will get healthier!</p>
+
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>Web page created by Robert Fesperman<br />
+            Research based on Han et al. (2026), Journal of Sports Science and Medicine.
+            <a href="references.html">View all references</a></p>
+        </footer>
+    </body>
+</html>
